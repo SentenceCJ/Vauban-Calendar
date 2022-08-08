@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200, 300, 400, 500, 600, 700, 800, 900&display=swap');
+
+
+.top
+{
+    position: relative;
+    width : 100%;
+    height : 115px;
+    /* border : 1px solid black; */
+    display: flex;
+    background-color: #ece9e7;
+}
+
+.mots a
+{
+    font-family: sans-serif;
+    color : #0c165a;
+    
+    padding-right: 10px;
+    margin-left: 50px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.logo
+{ 
+ 
+  padding-top: 15px;
+  padding-bottom: 17px;
+    padding-left: 250px;
+    /* border : 1px solid black; */
+    width: 40%;
+}
+
+.mots
+{
+    /* border : 1px solid black; */
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+#bande_horizontale{
+  padding: 0px;
+  margin-top: 10px;
+  border: none;
+  width: 100%;
+  height: 55px;
+  background-color: #ADB6C4;
+  }
+
+.container-footer{
+  
+  position: relative;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #ece9e7;
+}
+
+.title{
+  font-size: 250%;
+}
+
+.topCalendar{
+  height: 0%;
+}
+
+.calendar{
+  width: auto;
+  margin: 90px 100px 100px 100px  ;
+  height: 900px;
+}
+
+.cal__table{
+  width: 100%;
+  height: calc(100% - 60px);
+}
+
+.cal__table td{
+  padding: 2px;
+  vertical-align: top;
+  border: solid 1px black;
+  width: 14.29%;
+  height: 16.67%
+}
+
+.notIn{
+  opacity: 0.3;
+}
+
+.in{
+  font-size: 120%;
+}
+
+/* CSS */
+.button {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border-radius: 30%;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 40px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: right;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  touch-action: manipulation;
+  will-change: box-shadow,transform;
+  font-size: 20px;
+  top: -50px;
+  left: calc(100% - 100px);
+}
+
+.button:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
