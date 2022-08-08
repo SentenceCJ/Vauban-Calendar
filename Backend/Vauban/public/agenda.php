@@ -201,7 +201,10 @@ class="hfeed site" id="page">
 
 <!--  TEST CALENDAR-->
 
-
+<div class="top">
+    <div class="logo" ><img src="img/logo-vauban-online-1-340x80.png" alt="..." width="345px">
+    </div>
+</div>
 <section>
   <form method="POST">
     <div class="calendar">
