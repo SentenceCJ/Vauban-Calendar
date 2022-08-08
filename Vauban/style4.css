@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200, 300, 400, 500, 600, 700, 800, 900&display=swap');
+
+
+
+
+.calendar{
+  width: auto;
+  margin: 50px 100px 100px 100px  ;
+  height: 800px;
+  border: solid 2px black;
+}
+
